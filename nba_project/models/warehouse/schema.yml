@@ -1,0 +1,10 @@
+
+version: 2
+
+models:
+  - name: wh_players
+    description: "Warehouse transformed players data."
+
+  - name: wh_salaries
+    description: "Warehouse transformed salaries data."
+    

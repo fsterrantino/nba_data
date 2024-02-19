@@ -1,0 +1,10 @@
+
+version: 2
+
+models:
+  - name: stg_players
+    description: "Raw players data."
+
+  - name: stg_salaries
+    description: "Raw salaries data."
+    

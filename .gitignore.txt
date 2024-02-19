@@ -1,0 +1,3 @@
+venv/
+Source_files_diagram.drawio
+Source_files_diagram_dimensional_model.drawio

@@ -1,0 +1,87 @@
+[0m16:11:03.861670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCC876C5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCC8337D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCC8245090>]}
+
+
+============================== 16:11:03.873672 | 19aa4a89-f486-48ce-b6a3-320bcf82825f ==============================
+[0m16:11:03.873672 [info ] [MainThread]: Running with dbt=1.7.8
+[0m16:11:03.876668 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Franco\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init nba_project', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:11:03.881669 [debug] [MainThread]: Starter project path: C:\Users\Franco\Desktop\Franco\Data Engineering\NBA_data\venv\Lib\site-packages\dbt\include\starter_project
+[0m16:11:03.982734 [info ] [MainThread]: 
+Your new dbt project "nba_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:11:03.984968 [info ] [MainThread]: Setting up your profile.
+[0m16:13:31.858011 [info ] [MainThread]: Profile nba_project written to C:\Users\Franco\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:13:31.862009 [debug] [MainThread]: Command `dbt init` succeeded at 16:13:31.861011 after 148.14 seconds
+[0m16:13:31.864010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCC1149F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCC789CE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BCC1438D50>]}
+[0m16:13:31.866011 [debug] [MainThread]: Flushing usage events
+[0m16:13:45.435826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227CA98C890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227CA46F090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227CA0F7050>]}
+
+
+============================== 16:13:45.446830 | 964c9da5-2c12-47f7-bb84-ac1707b69868 ==============================
+[0m16:13:45.446830 [info ] [MainThread]: Running with dbt=1.7.8
+[0m16:13:45.449829 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Franco\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:13:45.452830 [info ] [MainThread]: dbt version: 1.7.8
+[0m16:13:45.454826 [info ] [MainThread]: python version: 3.11.6
+[0m16:13:45.456828 [info ] [MainThread]: python path: C:\Users\Franco\Desktop\Franco\Data Engineering\NBA_data\venv\Scripts\python.exe
+[0m16:13:45.458827 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m16:13:46.444823 [info ] [MainThread]: Using profiles dir at C:\Users\Franco\.dbt
+[0m16:13:46.447827 [info ] [MainThread]: Using profiles.yml file at C:\Users\Franco\.dbt\profiles.yml
+[0m16:13:46.449825 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Franco\Desktop\Franco\Data Engineering\NBA_data\dbt_project.yml
+[0m16:13:46.451827 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:13:46.454830 [debug] [MainThread]: Command `dbt debug` failed at 16:13:46.453826 after 1.15 seconds
+[0m16:13:46.455833 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227CA99BBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227C33D9ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000227CA1EC150>]}
+[0m16:13:46.456828 [debug] [MainThread]: Flushing usage events
+[0m16:21:25.401734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C5EEC9CE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C5EE85AE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C5EE495F90>]}
+
+
+============================== 16:21:25.410729 | 4bbd23f6-94ee-45e6-8ea0-511af1120da2 ==============================
+[0m16:21:25.410729 [info ] [MainThread]: Running with dbt=1.7.8
+[0m16:21:25.412729 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Franco\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:21:25.414727 [info ] [MainThread]: dbt version: 1.7.8
+[0m16:21:25.416725 [info ] [MainThread]: python version: 3.11.6
+[0m16:21:25.418735 [info ] [MainThread]: python path: C:\Users\Franco\Desktop\Franco\Data Engineering\NBA_data\venv\Scripts\python.exe
+[0m16:21:25.419728 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m16:21:26.382932 [info ] [MainThread]: Using profiles dir at C:\Users\Franco\.dbt
+[0m16:21:26.384935 [info ] [MainThread]: Using profiles.yml file at C:\Users\Franco\.dbt\profiles.yml
+[0m16:21:26.386934 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Franco\Desktop\Franco\Data Engineering\NBA_data\dbt_project.yml
+[0m16:21:26.388932 [info ] [MainThread]: Configuration:
+[0m16:21:26.390933 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m16:21:26.392933 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:21:26.393934 [info ] [MainThread]: Required dependencies:
+[0m16:21:26.395933 [debug] [MainThread]: Executing "git --help"
+[0m16:21:26.498972 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:21:26.500974 [debug] [MainThread]: STDERR: "b''"
+[0m16:21:26.502972 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:21:26.503979 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m16:21:26.506971 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:21:26.507975 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Profile nba_project in profiles.yml is empty
+  
+
+
+[0m16:21:26.509976 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Franco\Desktop\Franco\Data Engineering\NBA_data\dbt_project.yml> not found
+
+[0m16:21:26.513977 [debug] [MainThread]: Command `dbt debug` failed at 16:21:26.512970 after 1.26 seconds
+[0m16:21:26.515979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C5EE57A890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C5E7689ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C5EEC8C490>]}
+[0m16:21:26.517973 [debug] [MainThread]: Flushing usage events
