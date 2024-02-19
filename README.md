@@ -1,7 +1,7 @@
 # NBA_data project
 
 ## Objective
-The objective of the project it's to be able to create a normalized dimensional model from two raw CSVs files with NBA data.
+The objective of the project it's to be able to create a normalized dimensional model from two raw CSVs files with NBA data and load them as tables in a simple Snowflake Data Warehouse.
 
 ## Description
 The dimensional model established is two JPG files:
